@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0",
-  "build": 1,
-  "url": "https://github.com/inkstatim/orbit-releases/releases/download/v0.1.0/Orbit-0.1.0.dmg",
-  "notes": "First release: list, rings and tiles, hidden space, safe cleanup to the Trash, 14 languages."
+  "version": "0.1.1",
+  "build": 2,
+  "url": "https://github.com/inkstatim/orbit-releases/releases/download/v0.1.1/Orbit-0.1.1.dmg",
+  "notes": "Orbit section in the sidebar (feedback, report a problem, buy me a coffee) and a donate-with-any-crypto link in Support Orbit."
 }
