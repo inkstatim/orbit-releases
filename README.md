@@ -69,7 +69,9 @@ macOS 14 or later, Apple Silicon and Intel.
 ## ☕ Buy me a coffee
 
 Orbit is free. If it saves you time, you can buy the developer a coffee in crypto.
-**Send only on the network shown** — a transfer on another network is lost.
+**[☕ Donate with any crypto](https://nowpayments.io/donation/inkstatim)** — pay in any coin NOWPayments supports.
+
+Or send directly to an address below. **Send only on the network shown** — a transfer on another network is lost.
 
 | Coin | Network | Address |
 |---|---|---|
@@ -97,7 +99,7 @@ Orbit сам завантажиться, встановиться в «Прог�
 (тоді при першому запуску: «Системні параметри» → «Приватність і безпека» → «Усе одно відкрити»).
 Щоб бачити весь диск, дайте Orbit «Повний доступ до диска».
 
-**На каву ☕** — якщо Orbit знадобився, адреси вище, у розділі [Buy me a coffee](#-buy-me-a-coffee).
+**На каву ☕** — якщо Orbit знадобився, [задонатити будь-якою криптовалютою](https://nowpayments.io/donation/inkstatim) або адреси вище, у розділі [Buy me a coffee](#-buy-me-a-coffee).
 Ідеї та помилки — у Telegram [@akm_tims](https://t.me/akm_tims).
 
 ## По-русски
@@ -116,7 +118,7 @@ Orbit сам скачается, установится в «Программы�
 (тогда при первом запуске: «Системные настройки» → «Конфиденциальность и безопасность» → «Всё равно открыть»).
 Чтобы видеть весь диск, дайте Orbit «Полный доступ к диску».
 
-**На кофе ☕** — если Orbit пригодился, адреса выше, в разделе [Buy me a coffee](#-buy-me-a-coffee).
+**На кофе ☕** — если Orbit пригодился, [задонатить любой криптовалютой](https://nowpayments.io/donation/inkstatim) или адреса выше, в разделе [Buy me a coffee](#-buy-me-a-coffee).
 Идеи и ошибки — в Telegram [@akm_tims](https://t.me/akm_tims).
 
 ---
