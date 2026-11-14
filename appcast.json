@@ -1,6 +1,6 @@
 {
-  "version": "0.1.1",
-  "build": 2,
-  "url": "https://github.com/inkstatim/orbit-releases/releases/download/v0.1.1/Orbit-0.1.1.dmg",
-  "notes": "Orbit section in the sidebar (feedback, report a problem, buy me a coffee) and a donate-with-any-crypto link in Support Orbit."
+  "version": "0.1.2",
+  "build": 3,
+  "url": "https://github.com/inkstatim/orbit-releases/releases/download/v0.1.2/Orbit-0.1.2.dmg",
+  "notes": "Fixed a crash when a new scan was started while files were still being moved to the Trash."
 }
