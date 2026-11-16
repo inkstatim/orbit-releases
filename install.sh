@@ -4,7 +4,10 @@
 # Скачивает последнюю версию, кладёт Orbit в «Программы» и запускает.
 set -euo pipefail
 
-URL="https://github.com/inkstatim/orbit-releases/releases/latest/download/Orbit.dmg"
+# Через сайт — чтобы видеть число установок (сайт записывает только день и страну, без IP) и сразу отдаёт файл с GitHub.
+# Если сайт недоступен — качаем с GitHub напрямую.
+URL="https://inkstatim.dev/dl/orbit?via=install"
+FALLBACK_URL="https://github.com/inkstatim/orbit-releases/releases/latest/download/Orbit.dmg"
 DEST="${ORBIT_INSTALL_DIR:-/Applications}"
 TMP="$(mktemp -d)"
 MNT="$TMP/mnt"
@@ -28,7 +31,7 @@ if [[ ! -w "$DEST" ]]; then
 fi
 
 echo "⬇ Скачиваю Orbit…"
-curl -fL --progress-bar -o "$TMP/Orbit.dmg" "$URL" || fail "Не удалось скачать. Проверьте интернет и попробуйте ещё раз."
+curl -fL --progress-bar -o "$TMP/Orbit.dmg" "$URL" || curl -fL --progress-bar -o "$TMP/Orbit.dmg" "$FALLBACK_URL" || fail "Не удалось скачать. Проверьте интернет и попробуйте ещё раз."
 
 hdiutil attach -quiet -nobrowse -readonly -mountpoint "$MNT" "$TMP/Orbit.dmg" || fail "Файл скачался с ошибкой. Попробуйте ещё раз."
 codesign --verify --deep --strict "$MNT/Orbit.app" 2>/dev/null || fail "Подпись Orbit не прошла проверку — установка отменена."
